@@ -109,25 +109,31 @@
     @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
   }
   .status-open {
-    @apply bg-info/15 text-info;
+    background-color: hsl(var(--info) / 0.15);
+    @apply text-info;
   }
   .status-in-progress {
-    @apply bg-warning/15 text-warning;
+    background-color: hsl(var(--warning) / 0.15);
+    @apply text-warning;
   }
   .status-resolved {
-    @apply bg-success/15 text-success;
+    background-color: hsl(var(--success) / 0.15);
+    @apply text-success;
   }
   .status-closed {
     @apply bg-muted text-muted-foreground;
   }
   .status-critical {
-    @apply bg-destructive/15 text-destructive;
+    background-color: hsl(var(--destructive) / 0.15);
+    @apply text-destructive;
   }
   .status-deployed {
-    @apply bg-success/15 text-success;
+    background-color: hsl(var(--success) / 0.15);
+    @apply text-success;
   }
   .status-in-stock {
-    @apply bg-info/15 text-info;
+    background-color: hsl(var(--info) / 0.15);
+    @apply text-info;
   }
   .status-retired {
     @apply bg-muted text-muted-foreground;
